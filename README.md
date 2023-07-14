@@ -8,7 +8,8 @@ Due to file sizes, model files have been omitted these include '.pkl' and '.hdf5
 
 In accordance to the paper publication, the code has been submitted to the GitHub repositry - https://github.com/brai-acslab/CRL-UlS
 
-![alt text](file:///C:/Users/Sam.Sutton/Downloads/Fig01-89.pdf)
+![image](https://github.com/SamSutton3/Identifying-Crown-Rump/assets/56264828/937a4184-164f-4318-910a-08c33c506920)
+
 
 # Identification of Crown and Rump in First-Trimester Ultrasound Images using Deep Convolutional Neural Network
 
@@ -22,8 +23,14 @@ The three models are documented in the headings below.
 # Image Segmentation Model
 Image Segmentation was highlighted in background research as vital for medical imaging. Paper by https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/ informed of the importance of a U-Net Model. Code was adapted from an existing repositry from Yu-Jen Huang at https://github.com/Huangyuren/unet_SCM which details the implementation of the complex U-Net Model.
 
+![image](https://github.com/SamSutton3/Identifying-Crown-Rump/assets/56264828/34bc0fd9-9e32-4f56-a525-1ac74887f4e8)
+
+
 # Image Classification Model
 The image classification model will classify the segmented images from the U-Net Model into 'Good' and 'Bad' segmentation categories. Different pre-trained architectures, including ResNet50, InceptionV3, VGG-16 and Xception, were evaluated for the performance. With the VGG-16 Model being best suited to perform the classification.
+
+![image](https://github.com/SamSutton3/Identifying-Crown-Rump/assets/56264828/7e1c92ee-338b-4b61-99ea-dd9017bf8925)
+
 
 # Identification Model
 The image classification model will classify the segmented images from the U-Net Model into 'Good' and 'Bad' segmentation categories. Different pre-trained architectures, including ResNet50, InceptionV3, VGG-16 and Xception, were evaluated for the performance. With the VGG-16 Model being best suited to perform the classification.
